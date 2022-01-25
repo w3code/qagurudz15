@@ -7,7 +7,7 @@ import org.aeonbits.owner.Config;
         "classpath:config/api.properties"
 })
 
-public interface apiConfig extends Config{
+public interface ApiConfig extends Config{
 
     @Key("apiUri")
     String apiUri();
